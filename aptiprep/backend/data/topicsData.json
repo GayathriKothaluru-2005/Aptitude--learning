@@ -1,0 +1,1131 @@
+[
+  {
+    "slug": "percentages",
+    "name": "Percentages",
+    "category": "Arithmetic",
+    "explanation": "A percentage is a way of expressing a number as a fraction of 100. The word 'percent' comes from Latin 'per centum', meaning 'by the hundred'. Percentages are used everywhere \u2014 from calculating discounts and tax to comparing data and measuring growth. If you scored 45 out of 60 in a test, your percentage is (45/60) \u00d7 100 = 75%. Understanding percentages is the foundation of profit/loss, simple interest, and data interpretation topics.",
+    "formulas": [
+      "Percentage = (Value / Total Value) \u00d7 100",
+      "Value = (Percentage \u00d7 Total) / 100",
+      "Percentage Increase = [(New Value \u2212 Old Value) / Old Value] \u00d7 100",
+      "Percentage Decrease = [(Old Value \u2212 New Value) / Old Value] \u00d7 100",
+      "Successive Change = a + b + (a \u00d7 b) / 100  (where a and b are % changes)"
+    ],
+    "shortcuts": [
+      "To find x% of y quickly: multiply y by x, then divide by 100. Example: 15% of 240 = 240 \u00d7 15 / 100 = 36.",
+      "If A is x% more than B, then B is less than A by [x / (100 + x)] \u00d7 100 %.",
+      "If A is x% less than B, then B is more than A by [x / (100 \u2212 x)] \u00d7 100 %.",
+      "Fraction\u2013Percent equivalents to memorise: 1/4 = 25%, 1/3 \u2248 33.33%, 3/8 = 37.5%, 5/8 = 62.5%, 2/3 \u2248 66.67%.",
+      "Successive discounts of a% and b% \u2260 (a+b)%. Use: effective = a + b \u2212 (ab/100)."
+    ],
+    "examples": [
+      {
+        "question": "A student scored 432 marks out of 600. What is his percentage?",
+        "steps": [
+          "Step 1: Use the formula \u2014 Percentage = (Score / Total) \u00d7 100",
+          "Step 2: Percentage = (432 / 600) \u00d7 100",
+          "Step 3: Percentage = 0.72 \u00d7 100 = 72%"
+        ],
+        "answer": "72%"
+      },
+      {
+        "question": "The price of a shirt increased from \u20b9800 to \u20b9960. Find the percentage increase.",
+        "steps": [
+          "Step 1: Increase = New Price \u2212 Old Price = 960 \u2212 800 = \u20b9160",
+          "Step 2: % Increase = (Increase / Old Price) \u00d7 100",
+          "Step 3: % Increase = (160 / 800) \u00d7 100 = 20%"
+        ],
+        "answer": "20% increase"
+      },
+      {
+        "question": "A shopkeeper gives two successive discounts of 10% and 20% on a product marked \u20b95000. Find the final price.",
+        "steps": [
+          "Step 1: After 1st discount (10%): Price = 5000 \u00d7 (1 \u2212 10/100) = 5000 \u00d7 0.9 = \u20b94500",
+          "Step 2: After 2nd discount (20%): Price = 4500 \u00d7 (1 \u2212 20/100) = 4500 \u00d7 0.8 = \u20b93600",
+          "Step 3: Alternatively, use the formula \u2014 Effective discount = 10 + 20 \u2212 (10\u00d720)/100 = 28%",
+          "Step 4: Final price = 5000 \u00d7 (1 \u2212 28/100) = 5000 \u00d7 0.72 = \u20b93600"
+        ],
+        "answer": "\u20b93600"
+      }
+    ]
+  },
+  {
+    "slug": "profit-and-loss",
+    "name": "Profit and Loss",
+    "category": "Arithmetic",
+    "explanation": "Profit and Loss problems are built around three values: Cost Price (CP), Selling Price (SP), and Marked Price (MP). CP is what you pay to buy an item. SP is what you sell it for. If SP > CP, you make a Profit. If SP < CP, you incur a Loss. Marked Price (or List Price) is the price written on the tag before any discount. Discount is always calculated on the Marked Price, while Profit/Loss is always calculated on the Cost Price \u2014 this distinction is critical.",
+    "formulas": [
+      "Profit = SP \u2212 CP",
+      "Loss = CP \u2212 SP",
+      "Profit % = (Profit / CP) \u00d7 100",
+      "Loss % = (Loss / CP) \u00d7 100",
+      "SP = CP \u00d7 (100 + Profit%) / 100",
+      "SP = CP \u00d7 (100 \u2212 Loss%) / 100",
+      "CP = SP \u00d7 100 / (100 + Profit%)",
+      "Discount = Marked Price \u2212 Selling Price",
+      "Discount % = (Discount / MP) \u00d7 100"
+    ],
+    "shortcuts": [
+      "If same SP for two articles, one at x% profit and one at x% loss \u2192 net result is always a loss of (x\u00b2/100)%.",
+      "If cost price of x articles = SP of y articles \u2192 Profit % = [(x\u2212y)/y] \u00d7 100.",
+      "To find CP when SP and profit% are given: CP = SP \u00d7 100 / (100 + P%).",
+      "A trader uses false weight of W grams instead of 1 kg \u2192 Profit % = [(1000 \u2212 W) / W] \u00d7 100.",
+      "Profit/Loss % is always on CP. Discount % is always on MP. Never confuse these two."
+    ],
+    "examples": [
+      {
+        "question": "A laptop is bought for \u20b945,000 and sold for \u20b954,000. Find the profit percentage.",
+        "steps": [
+          "Step 1: Profit = SP \u2212 CP = 54000 \u2212 45000 = \u20b99000",
+          "Step 2: Profit % = (Profit / CP) \u00d7 100",
+          "Step 3: Profit % = (9000 / 45000) \u00d7 100 = 20%"
+        ],
+        "answer": "20% profit"
+      },
+      {
+        "question": "A shopkeeper sells a watch at a loss of 15%. If the cost price is \u20b92400, find the selling price.",
+        "steps": [
+          "Step 1: At a loss of 15%, SP = CP \u00d7 (100 \u2212 Loss%) / 100",
+          "Step 2: SP = 2400 \u00d7 (100 \u2212 15) / 100",
+          "Step 3: SP = 2400 \u00d7 85 / 100 = \u20b92040"
+        ],
+        "answer": "\u20b92040"
+      },
+      {
+        "question": "Two articles are sold at \u20b91800 each \u2014 one at 20% profit and the other at 20% loss. Find the net profit or loss.",
+        "steps": [
+          "Step 1: Apply the shortcut formula \u2014 Net Loss % = (x\u00b2) / 100 where x = 20",
+          "Step 2: Net Loss % = (20 \u00d7 20) / 100 = 4%",
+          "Step 3: Total SP = 1800 + 1800 = \u20b93600",
+          "Step 4: Total CP = 3600 \u00d7 100 / (100 \u2212 4) = 3600 \u00d7 100 / 96 = \u20b93750",
+          "Step 5: Net Loss = CP \u2212 SP = 3750 \u2212 3600 = \u20b9150"
+        ],
+        "answer": "Net loss of \u20b9150"
+      }
+    ]
+  },
+  {
+    "slug": "ratio-and-proportion",
+    "name": "Ratio and Proportion",
+    "category": "Arithmetic",
+    "explanation": "A ratio compares two quantities of the same kind. Writing a:b means for every 'a' units of the first quantity, there are 'b' units of the second. A proportion states that two ratios are equal: a:b = c:d. Ratios are used in dividing amounts, mixing, partnerships, and scale problems. A key property: in a proportion a:b = c:d, the cross-products are equal \u2014 a\u00d7d = b\u00d7c (cross-multiplication rule).",
+    "formulas": [
+      "Ratio: a : b = a/b",
+      "Cross Multiplication: if a/b = c/d, then a\u00d7d = b\u00d7c",
+      "Dividing N in ratio a:b \u2192 Parts are Na/(a+b) and Nb/(a+b)",
+      "Compounded Ratio of a:b and c:d = ac : bd",
+      "Duplicate Ratio of a:b = a\u00b2 : b\u00b2",
+      "Sub-Duplicate Ratio of a:b = \u221aa : \u221ab",
+      "Mean Proportion of a and b = \u221a(ab)"
+    ],
+    "shortcuts": [
+      "To combine A:B and B:C into A:B:C \u2014 make B the same value in both ratios by multiplying.",
+      "If A:B = 2:3 and B:C = 4:5, then A:B:C = 8:12:15 (multiply A:B by 4, B:C by 3).",
+      "Inverse ratio of a:b is b:a.",
+      "If incomes are in ratio p:q and expenses in r:s, savings = income \u2212 expenses (set up equations).",
+      "Partnership problems: Profit is shared in ratio of (Capital \u00d7 Time) for each partner."
+    ],
+    "examples": [
+      {
+        "question": "Divide \u20b91,200 between A and B in the ratio 3:5.",
+        "steps": [
+          "Step 1: Total parts = 3 + 5 = 8",
+          "Step 2: A's share = (3/8) \u00d7 1200 = \u20b9450",
+          "Step 3: B's share = (5/8) \u00d7 1200 = \u20b9750",
+          "Step 4: Verify: 450 + 750 = \u20b91200 \u2713"
+        ],
+        "answer": "A = \u20b9450, B = \u20b9750"
+      },
+      {
+        "question": "If A:B = 3:4 and B:C = 6:7, find A:B:C.",
+        "steps": [
+          "Step 1: Make B consistent \u2014 LCM of 4 and 6 = 12",
+          "Step 2: A:B = 3:4 \u2192 multiply by 3 \u2192 A:B = 9:12",
+          "Step 3: B:C = 6:7 \u2192 multiply by 2 \u2192 B:C = 12:14",
+          "Step 4: A:B:C = 9:12:14"
+        ],
+        "answer": "A:B:C = 9:12:14"
+      },
+      {
+        "question": "A, B, and C invest \u20b95000, \u20b98000, and \u20b96000 for 1 year. The total profit is \u20b99500. Find each person's share.",
+        "steps": [
+          "Step 1: Ratio of investment = 5000:8000:6000 = 5:8:6",
+          "Step 2: Total parts = 5 + 8 + 6 = 19",
+          "Step 3: A's share = (5/19) \u00d7 9500 = \u20b92500",
+          "Step 4: B's share = (8/19) \u00d7 9500 = \u20b94000",
+          "Step 5: C's share = (6/19) \u00d7 9500 = \u20b93000"
+        ],
+        "answer": "A = \u20b92500, B = \u20b94000, C = \u20b93000"
+      }
+    ]
+  },
+  {
+    "slug": "time-and-work",
+    "name": "Time and Work",
+    "category": "Work & Speed",
+    "explanation": "Time and Work problems ask: if someone takes N days to finish a job, how much do they complete per day? That rate is 1/N of the job per day. When multiple people work together, their daily rates add up. The LCM method makes this faster \u2014 assign the total work as LCM of all individual times, then find each person's daily output as a number, add them, and divide to get time together. Pipes and cisterns follow the same logic: filling pipes are positive, draining pipes are negative.",
+    "formulas": [
+      "1 person's 1-day work = 1 / Total days",
+      "Combined work rate = 1/A + 1/B + 1/C ...",
+      "Time to finish together = 1 / (1/A + 1/B)",
+      "Simplified for 2 people: Time = (A \u00d7 B) / (A + B)",
+      "Work done in t days by A = t / A",
+      "Remaining work = 1 \u2212 Work done"
+    ],
+    "shortcuts": [
+      "LCM Method: Assign Total Work = LCM(days of A, days of B). Then daily output = Total Work / Days. Add outputs, divide Total Work by combined output.",
+      "If A is twice as efficient as B, A takes half B's time.",
+      "If A can do a job in x days and A+B together in y days, then B alone takes (xy)/(x\u2212y) days.",
+      "For pipes: Net rate = Sum of filling rates \u2212 Sum of draining rates.",
+      "If a tank is filled in x hours and drained in y hours simultaneously, time to fill = xy / (y \u2212 x)."
+    ],
+    "examples": [
+      {
+        "question": "A can complete a work in 12 days and B in 18 days. How long will they take working together?",
+        "steps": [
+          "Step 1: A's 1-day work = 1/12, B's 1-day work = 1/18",
+          "Step 2: Combined 1-day work = 1/12 + 1/18",
+          "Step 3: LCM of 12 and 18 = 36. So 1/12 = 3/36, 1/18 = 2/36",
+          "Step 4: Combined = 5/36 per day",
+          "Step 5: Days together = 36/5 = 7.2 days"
+        ],
+        "answer": "7.2 days (or 7 days 4.8 hours)"
+      },
+      {
+        "question": "A, B, and C can do a work in 10, 15, and 30 days. If B stops after 3 days, how long does the work take?",
+        "steps": [
+          "Step 1: LCM(10, 15, 30) = 30. Total work = 30 units.",
+          "Step 2: A = 3 units/day, B = 2 units/day, C = 1 unit/day.",
+          "Step 3: In 3 days with all three: Work done = (3+2+1) \u00d7 3 = 18 units.",
+          "Step 4: Remaining = 30 \u2212 18 = 12 units. Now only A and C remain.",
+          "Step 5: A + C = 3 + 1 = 4 units/day. Days = 12 / 4 = 3 days.",
+          "Step 6: Total time = 3 + 3 = 6 days."
+        ],
+        "answer": "6 days"
+      },
+      {
+        "question": "A pipe fills a tank in 6 hours, another fills it in 8 hours, and a drain empties it in 12 hours. If all three are open, how long to fill the tank?",
+        "steps": [
+          "Step 1: LCM(6, 8, 12) = 24. Total capacity = 24 units.",
+          "Step 2: Pipe A fills 4 units/hr, Pipe B fills 3 units/hr, Drain empties 2 units/hr.",
+          "Step 3: Net per hour = 4 + 3 \u2212 2 = 5 units/hr.",
+          "Step 4: Time = 24 / 5 = 4.8 hours = 4 hours 48 minutes."
+        ],
+        "answer": "4 hours 48 minutes"
+      }
+    ]
+  },
+  {
+    "slug": "simple-interest",
+    "name": "Simple Interest",
+    "category": "Arithmetic",
+    "explanation": "Simple Interest (SI) is calculated only on the original principal \u2014 it does not compound. The interest stays the same each year. If you deposit \u20b91000 at 10% per annum for 3 years, you earn \u20b9100 each year = \u20b9300 total. The total amount you receive back is called the Amount (A = P + SI). Simple interest is linear \u2014 it grows in a straight line with time. It is commonly used in short-term loans, government bonds, and basic savings accounts.",
+    "formulas": [
+      "SI = (P \u00d7 R \u00d7 T) / 100",
+      "Amount A = P + SI",
+      "Principal P = (SI \u00d7 100) / (R \u00d7 T)",
+      "Rate R = (SI \u00d7 100) / (P \u00d7 T)",
+      "Time T = (SI \u00d7 100) / (P \u00d7 R)",
+      "If SI = P (doubles), then R \u00d7 T = 100"
+    ],
+    "shortcuts": [
+      "SI for 2 years at R% = 2PR/100. Just double the yearly interest.",
+      "If principal doubles in T years at R%, then T \u00d7 R = 100.",
+      "At R% per annum, money triples in T = 200/R years (SI).",
+      "If rate increases by r%, extra interest = P \u00d7 r \u00d7 T / 100.",
+      "Convert months to years before plugging into the formula: T (years) = months / 12."
+    ],
+    "examples": [
+      {
+        "question": "Find the Simple Interest on \u20b98,000 at 6% per annum for 3 years.",
+        "steps": [
+          "Step 1: P = 8000, R = 6, T = 3",
+          "Step 2: SI = (P \u00d7 R \u00d7 T) / 100 = (8000 \u00d7 6 \u00d7 3) / 100",
+          "Step 3: SI = 144000 / 100 = \u20b91440",
+          "Step 4: Amount = P + SI = 8000 + 1440 = \u20b99440"
+        ],
+        "answer": "SI = \u20b91440, Amount = \u20b99440"
+      },
+      {
+        "question": "At what rate per annum will \u20b95,000 amount to \u20b97,000 in 4 years (simple interest)?",
+        "steps": [
+          "Step 1: SI = Amount \u2212 Principal = 7000 \u2212 5000 = \u20b92000",
+          "Step 2: R = (SI \u00d7 100) / (P \u00d7 T)",
+          "Step 3: R = (2000 \u00d7 100) / (5000 \u00d7 4) = 200000 / 20000 = 10%"
+        ],
+        "answer": "10% per annum"
+      },
+      {
+        "question": "A sum triples itself in 20 years under Simple Interest. Find the rate of interest.",
+        "steps": [
+          "Step 1: If principal = P, Amount = 3P, so SI = 3P \u2212 P = 2P.",
+          "Step 2: SI = (P \u00d7 R \u00d7 T) / 100 \u2192 2P = (P \u00d7 R \u00d7 20) / 100",
+          "Step 3: 2 = 20R / 100 \u2192 2 = R/5 \u2192 R = 10%"
+        ],
+        "answer": "10% per annum"
+      }
+    ]
+  },
+  {
+    "slug": "compound-interest",
+    "name": "Compound Interest",
+    "category": "Arithmetic",
+    "explanation": "Compound Interest (CI) is calculated on the principal plus the accumulated interest from previous periods. Unlike Simple Interest, the base grows each year, so CI grows exponentially. If you deposit \u20b91000 at 10% CI for 2 years: Year 1 interest = \u20b9100 (on \u20b91000), Year 2 interest = \u20b9110 (on \u20b91100). Total CI = \u20b9210 vs SI = \u20b9200. The extra \u20b910 is interest on interest. CI is used in bank FDs, home loans, and long-term investments. The compounding frequency matters \u2014 more frequent compounding means more interest.",
+    "formulas": [
+      "A = P \u00d7 (1 + R/100)^T",
+      "CI = A \u2212 P = P \u00d7 [(1 + R/100)^T \u2212 1]",
+      "Half-yearly compounding: A = P \u00d7 (1 + R/200)^(2T)",
+      "Quarterly compounding: A = P \u00d7 (1 + R/400)^(4T)",
+      "CI for 2 years shortcut: CI = P \u00d7 [2R/100 + (R/100)\u00b2]",
+      "Difference CI \u2212 SI for 2 years = P \u00d7 (R/100)\u00b2",
+      "Difference CI \u2212 SI for 3 years = P \u00d7 (R/100)\u00b2 \u00d7 (R/100 + 3)"
+    ],
+    "shortcuts": [
+      "Rule of 72: Years to double your money \u2248 72 / R%. Example: at 9%, money doubles in 8 years.",
+      "For 2 years CI: use the expansion A = P(1 + R/100)\u00b2 to avoid errors.",
+      "CI \u2212 SI for 2 years = P(R/100)\u00b2. Quick check for both values.",
+      "If CI for year 1 is \u20b9X and for year 2 is \u20b9Y, then R% = [(Y\u2212X)/X] \u00d7 100.",
+      "Never divide CI by years for annual interest \u2014 CI is not linear like SI."
+    ],
+    "examples": [
+      {
+        "question": "Find the Compound Interest on \u20b910,000 at 10% per annum for 2 years.",
+        "steps": [
+          "Step 1: A = P \u00d7 (1 + R/100)^T = 10000 \u00d7 (1 + 10/100)\u00b2",
+          "Step 2: A = 10000 \u00d7 (1.1)\u00b2 = 10000 \u00d7 1.21 = \u20b912,100",
+          "Step 3: CI = A \u2212 P = 12100 \u2212 10000 = \u20b92100",
+          "Step 4: Cross-check: SI for same = (10000 \u00d7 10 \u00d7 2)/100 = \u20b92000. CI > SI by \u20b9100 = 10000 \u00d7 (0.1)\u00b2 \u2713"
+        ],
+        "answer": "CI = \u20b92100"
+      },
+      {
+        "question": "\u20b96250 is invested at 4% per annum compounded half-yearly for 1 year. Find the amount.",
+        "steps": [
+          "Step 1: Half-yearly rate = 4/2 = 2%, Number of periods = 1 \u00d7 2 = 2",
+          "Step 2: A = P \u00d7 (1 + R/200)^(2T) = 6250 \u00d7 (1 + 2/100)\u00b2",
+          "Step 3: A = 6250 \u00d7 (1.02)\u00b2 = 6250 \u00d7 1.0404 = \u20b96502.50"
+        ],
+        "answer": "Amount = \u20b96502.50"
+      },
+      {
+        "question": "The CI on a sum for 2 years is \u20b9820 and SI is \u20b9800. Find the principal and rate of interest.",
+        "steps": [
+          "Step 1: SI for 2 years = \u20b9800 \u2192 SI per year = \u20b9400",
+          "Step 2: Difference = CI \u2212 SI = 820 \u2212 800 = \u20b920",
+          "Step 3: This difference = P \u00d7 (R/100)\u00b2 = SI_year1 \u00d7 R/100",
+          "Step 4: 20 = 400 \u00d7 R/100 \u2192 R = 20 \u00d7 100/400 = 5%",
+          "Step 5: P = SI \u00d7 100 / (R \u00d7 T) = 800 \u00d7 100 / (5 \u00d7 2) = \u20b98000"
+        ],
+        "answer": "Principal = \u20b98000, Rate = 5%"
+      }
+    ]
+  },
+  {
+    "slug": "time-speed-distance",
+    "name": "Time, Speed & Distance",
+    "category": "Work & Speed",
+    "explanation": "Speed, Distance, and Time are interrelated through one core equation: Distance = Speed \u00d7 Time. These three can be derived from each other. Problems cover uniform speed, average speed for multiple legs of a journey, trains crossing poles/bridges/each other, boats in streams, and circular tracks. The trickiest area is relative speed \u2014 when two objects move toward each other, their speeds add; when moving in the same direction, the speed of the slower is subtracted from the faster.",
+    "formulas": [
+      "Distance = Speed \u00d7 Time",
+      "Speed = Distance / Time",
+      "Time = Distance / Speed",
+      "Average Speed = Total Distance / Total Time",
+      "Average Speed (equal distance, two speeds) = 2uv / (u + v)",
+      "Relative Speed (opposite direction) = S1 + S2",
+      "Relative Speed (same direction) = |S1 \u2212 S2|",
+      "Train crossing pole: Time = Length of Train / Speed of Train",
+      "Train crossing bridge: Time = (Length of Train + Length of Bridge) / Speed",
+      "Boat upstream speed = B \u2212 W  |  Boat downstream speed = B + W"
+    ],
+    "shortcuts": [
+      "Convert km/h to m/s: multiply by 5/18. Example: 72 km/h = 72 \u00d7 5/18 = 20 m/s.",
+      "Convert m/s to km/h: multiply by 18/5. Example: 25 m/s = 25 \u00d7 18/5 = 90 km/h.",
+      "If same distance at speeds u and v, average speed = 2uv/(u+v). NOT (u+v)/2.",
+      "Two trains start simultaneously toward each other and meet \u2014 they have covered the full distance between them together.",
+      "For circular track problems: Time to meet = LCM of individual lap times (same direction); Track/Relative Speed (opposite)."
+    ],
+    "examples": [
+      {
+        "question": "A train 250 m long crosses a pole in 10 seconds. Find its speed in km/h.",
+        "steps": [
+          "Step 1: To cross a pole, the train travels its own length = 250 m.",
+          "Step 2: Speed = Distance / Time = 250 / 10 = 25 m/s",
+          "Step 3: Convert to km/h: 25 \u00d7 18/5 = 90 km/h"
+        ],
+        "answer": "90 km/h"
+      },
+      {
+        "question": "Ravi travels from A to B at 60 km/h and returns at 40 km/h. Find his average speed.",
+        "steps": [
+          "Step 1: Equal distance both ways \u2014 use formula: Avg Speed = 2uv / (u + v)",
+          "Step 2: Avg Speed = 2 \u00d7 60 \u00d7 40 / (60 + 40)",
+          "Step 3: = 4800 / 100 = 48 km/h",
+          "Step 4: Note: Do NOT use (60+40)/2 = 50 \u2014 that is wrong for equal distance."
+        ],
+        "answer": "48 km/h"
+      },
+      {
+        "question": "A boat travels 36 km downstream in 2 hours and 24 km upstream in 3 hours. Find the speed of the boat and the stream.",
+        "steps": [
+          "Step 1: Downstream speed = 36/2 = 18 km/h",
+          "Step 2: Upstream speed = 24/3 = 8 km/h",
+          "Step 3: Speed of Boat (B) = (Downstream + Upstream) / 2 = (18 + 8) / 2 = 13 km/h",
+          "Step 4: Speed of Stream (W) = (Downstream \u2212 Upstream) / 2 = (18 \u2212 8) / 2 = 5 km/h"
+        ],
+        "answer": "Boat = 13 km/h, Stream = 5 km/h"
+      }
+    ]
+  },
+  {
+  "slug": "number-systems",
+  "name": "Number Systems",
+  "category": "Arithmetic",
+  "explanation": "Number Systems covers the properties of integers, their classification (natural, whole, integers, rational, irrational, real), divisibility rules, factors, multiples, HCF, LCM, and key theorems used in aptitude exams.",
+  "formulas": [
+    "HCF × LCM = Product of two numbers",
+    "HCF(a, b) × LCM(a, b) = a × b",
+    "Sum of first n natural numbers = n(n+1)/2",
+    "Sum of squares of first n natural numbers = n(n+1)(2n+1)/6",
+    "Sum of cubes of first n natural numbers = [n(n+1)/2]²",
+    "Divisibility by 2: last digit is even",
+    "Divisibility by 3: sum of digits divisible by 3",
+    "Divisibility by 4: last two digits divisible by 4",
+    "Divisibility by 5: last digit is 0 or 5",
+    "Divisibility by 6: divisible by both 2 and 3",
+    "Divisibility by 8: last three digits divisible by 8",
+    "Divisibility by 9: sum of digits divisible by 9",
+    "Divisibility by 11: (sum of digits at odd positions) − (sum of digits at even positions) = 0 or multiple of 11",
+    "Number of factors of N = (p+1)(q+1)(r+1)... where N = a^p × b^q × c^r ...",
+    "Sum of factors of N = [(a^(p+1)−1)/(a−1)] × [(b^(q+1)−1)/(b−1)] × ...",
+    "Euler's Totient: φ(N) = N × (1−1/a) × (1−1/b) × ... for prime factors a, b, ..."
+  ],
+  "shortcuts": [
+    "To find HCF of large numbers: use repeated division (Euclidean algorithm) — HCF(a,b) = HCF(b, a mod b)",
+    "LCM of fractions = LCM of numerators / HCF of denominators",
+    "HCF of fractions = HCF of numerators / LCM of denominators",
+    "If HCF of two numbers is H, both numbers are multiples of H",
+    "Any number N is divisible by 7 if: double the last digit, subtract from remaining number; repeat until small",
+    "To check divisibility by 13: add 4 times the last digit to the rest; repeat",
+    "A perfect square always ends in 0, 1, 4, 5, 6, or 9 — never 2, 3, 7, or 8",
+    "Consecutive integer trick: product of n consecutive integers is always divisible by n!",
+    "For two numbers a and b: if a + b = S and a × b = P, then a and b are roots of x² − Sx + P = 0",
+    "The remainder when (a^n) is divided by (a+1) is always 1 if n is even, and a if n is odd",
+    "Cyclicity of units digits: 1→1, 5→5, 6→6; 4 and 9 cycle in 2; 2, 3, 7, 8 cycle in 4",
+    "To find LCM of more than 2 numbers: find LCM of first two, then LCM of that result with the third, and so on"
+  ],
+  "examples": [
+    {
+      "question": "Find the HCF and LCM of 36 and 48.",
+      "steps": [
+        "Step 1: Prime factorisation — 36 = 2² × 3²; 48 = 2⁴ × 3",
+        "Step 2: HCF = product of lowest powers of common primes = 2² × 3 = 12",
+        "Step 3: LCM = product of highest powers of all primes = 2⁴ × 3² = 144",
+        "Step 4: Verify using formula — HCF × LCM = 12 × 144 = 1728 = 36 × 48 ✓"
+      ],
+      "answer": "HCF = 12, LCM = 144"
+    },
+    {
+      "question": "What is the largest 4-digit number exactly divisible by 12, 15, and 18?",
+      "steps": [
+        "Step 1: Find LCM of 12, 15, 18 — 12 = 2²×3; 15 = 3×5; 18 = 2×3² → LCM = 2²×3²×5 = 180",
+        "Step 2: Divide the largest 4-digit number 9999 by 180 — 9999 ÷ 180 = 55.55",
+        "Step 3: Take the integer part: 55 × 180 = 9900",
+        "Step 4: 9900 is divisible by 180, which is divisible by 12, 15, and 18"
+      ],
+      "answer": "9900"
+    },
+    {
+      "question": "Find the unit digit of 7⁹⁵.",
+      "steps": [
+        "Step 1: Identify the cyclicity of 7 — 7¹=7, 7²=49, 7³=343, 7⁴=2401 → units digits cycle: 7, 9, 3, 1 (cycle length = 4)",
+        "Step 2: Divide the exponent by the cycle length — 95 ÷ 4 = 23 remainder 3",
+        "Step 3: The remainder is 3, so the unit digit matches 7³",
+        "Step 4: Unit digit of 7³ is 3"
+      ],
+      "answer": "3"
+    },
+    {
+      "question": "How many numbers between 1 and 200 are divisible by both 3 and 5?",
+      "steps": [
+        "Step 1: A number divisible by both 3 and 5 must be divisible by LCM(3,5) = 15",
+        "Step 2: Count multiples of 15 up to 200 — ⌊200 ÷ 15⌋ = ⌊13.33⌋ = 13",
+        "Step 3: The multiples are 15, 30, 45, ..., 195"
+      ],
+      "answer": "13 numbers"
+    },
+    {
+      "question": "The HCF of two numbers is 11 and their LCM is 693. If one number is 77, find the other.",
+      "steps": [
+        "Step 1: Use the formula — HCF × LCM = Product of two numbers",
+        "Step 2: 11 × 693 = 7623",
+        "Step 3: Other number = 7623 ÷ 77 = 99"
+      ],
+      "answer": "99"
+    },
+    {
+      "question": "How many factors does 360 have?",
+      "steps": [
+        "Step 1: Prime factorise 360 — 360 = 2³ × 3² × 5¹",
+        "Step 2: Apply the number-of-factors formula — (3+1) × (2+1) × (1+1)",
+        "Step 3: = 4 × 3 × 2 = 24"
+      ],
+      "answer": "24 factors"
+    },
+    {
+      "question": "Find the remainder when 2^100 is divided by 3.",
+      "steps": [
+        "Step 1: Observe the pattern — 2¹÷3 rem 2; 2²÷3 rem 1; 2³÷3 rem 2; 2⁴÷3 rem 1 → cycle of length 2",
+        "Step 2: 100 is even → remainder follows the even-exponent pattern",
+        "Step 3: Even powers of 2 give remainder 1 when divided by 3"
+      ],
+      "answer": "Remainder = 1"
+    }
+  ]
+},
+ {
+  "slug": "averages",
+  "name": "Averages",
+  "category": "Arithmetic",
+  "explanation": "Averages (or Arithmetic Mean) represent the central value of a dataset. It is widely used in aptitude exams to solve problems involving grouped data, missing values, weighted averages, and changes in averages when values are added or removed.",
+  "formulas": [
+    "Average = Sum of all values / Number of values",
+    "Sum of values = Average × Number of values",
+    "Weighted Average = (w₁x₁ + w₂x₂ + ... + wₙxₙ) / (w₁ + w₂ + ... + wₙ)",
+    "New Average (after adding a value) = (Old Sum + New Value) / (n + 1)",
+    "New Average (after removing a value) = (Old Sum - Removed Value) / (n - 1)",
+    "Average of first n natural numbers = (n + 1) / 2",
+    "Average of first n even numbers = n + 1",
+    "Average of first n odd numbers = n",
+    "Average of consecutive numbers = (First + Last) / 2"
+  ],
+  "shortcuts": [
+    "If average increases by x when a new member joins, the new member's value = Old Average + (n + 1) × x, where n is the original count.",
+    "If average decreases by x when a new member joins, the new member's value = Old Average - (n + 1) × x.",
+    "If a wrong value is replaced by a correct one: Correct Average = Old Average + (Correct Value - Wrong Value) / n.",
+    "For consecutive numbers (AP), the average is always the middle term (or average of the two middle terms).",
+    "If two groups of sizes n₁ and n₂ have averages A₁ and A₂, combined average = (n₁A₁ + n₂A₂) / (n₁ + n₂).",
+    "To find a missing value: Missing Value = (Required Average × Total count) - Sum of known values."
+  ],
+  "examples": [
+    {
+      "question": "The average of 5 numbers is 28. If one number is excluded, the average becomes 26. Find the excluded number.",
+      "steps": [
+        "Step 1: Sum of 5 numbers = 28 × 5 = 140",
+        "Step 2: Sum of remaining 4 numbers = 26 × 4 = 104",
+        "Step 3: Excluded number = 140 - 104 = 36"
+      ],
+      "answer": "36"
+    },
+    {
+      "question": "The average age of a class of 30 students is 14 years. When the teacher's age is included, the average increases by 1. Find the teacher's age.",
+      "steps": [
+        "Step 1: Sum of students' ages = 14 × 30 = 420",
+        "Step 2: New average = 14 + 1 = 15; total count = 31",
+        "Step 3: New total sum = 15 × 31 = 465",
+        "Step 4: Teacher's age = 465 - 420 = 45"
+      ],
+      "answer": "45 years"
+    },
+    {
+      "question": "A batsman scored the following runs in 6 innings: 36, 45, 28, 52, 70, 39. Find his average score.",
+      "steps": [
+        "Step 1: Total runs = 36 + 45 + 28 + 52 + 70 + 39 = 270",
+        "Step 2: Number of innings = 6",
+        "Step 3: Average = 270 / 6 = 45"
+      ],
+      "answer": "45 runs"
+    },
+    {
+      "question": "The average of marks scored by 40 students is 72. The average of marks of the first 25 students is 70. Find the average marks of the remaining 15 students.",
+      "steps": [
+        "Step 1: Total marks of 40 students = 72 × 40 = 2880",
+        "Step 2: Total marks of first 25 students = 70 × 25 = 1750",
+        "Step 3: Total marks of remaining 15 = 2880 - 1750 = 1130",
+        "Step 4: Average of remaining 15 = 1130 / 15 = 75.33"
+      ],
+      "answer": "75.33 marks"
+    },
+    {
+      "question": "In a class, the average weight of 20 boys is 65 kg and the average weight of 30 girls is 55 kg. Find the average weight of the whole class.",
+      "steps": [
+        "Step 1: Total weight of boys = 65 × 20 = 1300 kg",
+        "Step 2: Total weight of girls = 55 × 30 = 1650 kg",
+        "Step 3: Combined total = 1300 + 1650 = 2950 kg",
+        "Step 4: Total students = 20 + 30 = 50",
+        "Step 5: Average weight = 2950 / 50 = 59 kg"
+      ],
+      "answer": "59 kg"
+    }
+  ]
+},
+  {
+  "slug": "permutations-and-combinations",
+  "name": "Permutations and Combinations",
+  "category": "Algebra",
+  "explanation": "Permutations and Combinations is a fundamental topic in counting theory. Permutations deal with arrangements where order matters, while Combinations deal with selections where order does not matter. In aptitude exams, this topic appears in problems involving seating arrangements, team selection, word formation, distribution, and probability.",
+  "formulas": [
+    "Factorial: n! = n × (n-1) × (n-2) × ... × 1, and 0! = 1",
+    "Permutation: nPr = n! / (n - r)!",
+    "Combination: nCr = n! / (r! × (n - r)!)",
+    "Relation between P and C: nPr = nCr × r!",
+    "Symmetry property: nCr = nC(n-r)",
+    "nC0 = nCn = 1",
+    "nCr + nC(r-1) = (n+1)Cr  [Pascal's Rule]",
+    "Permutations of n items with repetitions: n! / (p! × q! × r! ...) where p, q, r are frequencies of repeated items",
+    "Circular permutation of n distinct items: (n - 1)!",
+    "Circular permutation (necklace/keychain — flipping allowed): (n - 1)! / 2",
+    "Permutations with all items taken from n with repetition allowed: nⁿ",
+    "Combinations with repetition allowed (stars and bars): C(n + r - 1, r)",
+    "Number of ways to divide n items into groups of p, q, r (p+q+r=n): n! / (p! × q! × r!)",
+    "Total number of subsets of a set with n elements: 2ⁿ",
+    "Number of non-empty subsets: 2ⁿ - 1"
+  ],
+  "shortcuts": [
+    "Order matters → use Permutation (nPr); Order doesn't matter → use Combination (nCr)",
+    "For circular arrangements, fix one person/item to eliminate duplicate rotations — giving (n-1)!",
+    "When items must always be together, treat them as a single unit, then multiply by their internal arrangements",
+    "When items must never be together, use: Total arrangements − arrangements where they are together",
+    "Selecting r items from n where repetition is allowed: use C(n + r - 1, r)",
+    "Number of diagonals in an n-sided polygon: nC2 - n = n(n-3)/2",
+    "Number of triangles from n non-collinear points: nC3",
+    "Number of straight lines from n points (with k collinear): nC2 - kC2 + 1",
+    "nCr is maximum when r = n/2 (for even n) or r = (n±1)/2 (for odd n)",
+    "For distributing n identical items into r distinct groups (zeros allowed): C(n + r - 1, r - 1)"
+  ],
+  "examples": [
+    {
+      "question": "In how many ways can 5 students be seated in a row of 5 chairs?",
+      "steps": [
+        "Step 1: All 5 students occupy all 5 chairs — order matters, so use Permutation",
+        "Step 2: nPr = 5P5 = 5! / (5-5)! = 5! / 0! = 120 / 1"
+      ],
+      "answer": "120 ways"
+    },
+    {
+      "question": "A committee of 3 is to be formed from 6 people. In how many ways can this be done?",
+      "steps": [
+        "Step 1: Selection only — order doesn't matter, so use Combination",
+        "Step 2: nCr = 6C3 = 6! / (3! × 3!)",
+        "Step 3: = (6 × 5 × 4) / (3 × 2 × 1) = 120 / 6"
+      ],
+      "answer": "20 ways"
+    },
+    {
+      "question": "How many 4-letter words (with or without meaning) can be formed from the letters of the word 'LEAD', using each letter only once?",
+      "steps": [
+        "Step 1: LEAD has 4 distinct letters — L, E, A, D",
+        "Step 2: We need to arrange all 4 letters: 4P4 = 4! = 4 × 3 × 2 × 1"
+      ],
+      "answer": "24 words"
+    },
+    {
+      "question": "In how many ways can 6 people be seated around a circular table?",
+      "steps": [
+        "Step 1: For circular arrangements, fix one person to remove rotational duplicates",
+        "Step 2: Remaining 5 people can be arranged in (6 - 1)! = 5! ways",
+        "Step 3: 5! = 5 × 4 × 3 × 2 × 1 = 120"
+      ],
+      "answer": "120 ways"
+    },
+    {
+      "question": "From a group of 4 boys and 3 girls, in how many ways can a team of 4 be selected with at least 2 girls?",
+      "steps": [
+        "Step 1: Cases — exactly 2 girls + 2 boys, or exactly 3 girls + 1 boy",
+        "Step 2: Case 1: 3C2 × 4C2 = 3 × 6 = 18",
+        "Step 3: Case 2: 3C3 × 4C1 = 1 × 4 = 4",
+        "Step 4: Total = 18 + 4 = 22"
+      ],
+      "answer": "22 ways"
+    }
+  ]
+},
+  {
+  "slug": "algebra",
+  "name": "Algebra",
+  "category": "Algebra",
+  "explanation": "Algebra is a branch of mathematics dealing with symbols and the rules for manipulating those symbols. In aptitude exams, it covers simplifying expressions, solving linear and quadratic equations, working with polynomials, inequalities, functions, and arithmetic/geometric progressions.",
+  "formulas": [
+    "Linear Equation: ax + b = 0 → x = -b/a",
+    "Quadratic Formula: x = (-b ± √(b² - 4ac)) / 2a",
+    "Discriminant: D = b² - 4ac (D > 0: two real roots, D = 0: one real root, D < 0: no real roots)",
+    "Sum of roots (quadratic): α + β = -b/a",
+    "Product of roots (quadratic): α × β = c/a",
+    "Difference of squares: a² - b² = (a + b)(a - b)",
+    "Perfect square: (a ± b)² = a² ± 2ab + b²",
+    "Cube identities: a³ + b³ = (a + b)(a² - ab + b²), a³ - b³ = (a - b)(a² + ab + b²)",
+    "AP nth term: aₙ = a + (n - 1)d",
+    "AP sum: Sₙ = n/2 × [2a + (n - 1)d]",
+    "GP nth term: aₙ = a × r^(n-1)",
+    "GP sum: Sₙ = a(rⁿ - 1) / (r - 1) for r ≠ 1",
+    "Infinite GP sum: S∞ = a / (1 - r), where |r| < 1",
+    "Inequality rule: Multiplying/dividing by a negative number flips the inequality sign"
+  ],
+  "shortcuts": [
+    "If sum of coefficients = 0, then x = 1 is always a root of the equation",
+    "For ax² + bx + c = 0, if a + c = b, then x = -1 is a root",
+    "To quickly find roots of a quadratic, try factors of c/a that add up to b/a",
+    "For two consecutive integers n and n+1: their product + 1 is always a perfect square",
+    "AP middle term trick: For 3 terms in AP, take them as (a - d), a, (a + d) — sum = 3a",
+    "GP middle term trick: For 3 terms in GP, take them as a/r, a, ar — product = a³",
+    "Shortcut for (a + b)² − (a − b)² = 4ab — useful in simplification problems",
+    "If f(x) is divisible by (x - k), then f(k) = 0 (Factor Theorem)",
+    "For inequalities with modulus: |x| < a → -a < x < a; |x| > a → x < -a or x > a",
+    "Sum of first n natural numbers: n(n+1)/2; Sum of squares: n(n+1)(2n+1)/6"
+  ],
+  "examples": [
+    {
+      "question": "Find the roots of the equation: 2x² - 7x + 3 = 0",
+      "steps": [
+        "Step 1: Identify a = 2, b = -7, c = 3",
+        "Step 2: Use quadratic formula: x = (7 ± √(49 - 24)) / 4",
+        "Step 3: x = (7 ± √25) / 4 = (7 ± 5) / 4",
+        "Step 4: x = 12/4 = 3  or  x = 2/4 = 0.5"
+      ],
+      "answer": "x = 3 or x = 1/2"
+    },
+    {
+      "question": "The sum of three consecutive terms in an AP is 27 and their product is 504. Find the terms.",
+      "steps": [
+        "Step 1: Let the three terms be (a - d), a, (a + d)",
+        "Step 2: Sum = 3a = 27 → a = 9",
+        "Step 3: Product = (9 - d) × 9 × (9 + d) = 504",
+        "Step 4: 9(81 - d²) = 504 → 81 - d² = 56 → d² = 25 → d = ±5",
+        "Step 5: Terms are 4, 9, 14 (or 14, 9, 4)"
+      ],
+      "answer": "4, 9, 14"
+    },
+    {
+      "question": "Solve the inequality: 3x - 5 > 2x + 1",
+      "steps": [
+        "Step 1: Rearrange — subtract 2x from both sides: x - 5 > 1",
+        "Step 2: Add 5 to both sides: x > 6"
+      ],
+      "answer": "x > 6"
+    },
+    {
+      "question": "If one root of x² - 5x + k = 0 is 2, find k and the other root.",
+      "steps": [
+        "Step 1: Substitute x = 2: 4 - 10 + k = 0 → k = 6",
+        "Step 2: Sum of roots = 5 → other root = 5 - 2 = 3",
+        "Step 3: Verify: product of roots = 2 × 3 = 6 = k ✓"
+      ],
+      "answer": "k = 6, other root = 3"
+    }
+  ]
+},
+    
+  {
+  "slug": "geometry",
+  "name": "Geometry",
+  "category": "Geometry",
+  "explanation": "Geometry in aptitude exams covers properties and measurements of 2D shapes (triangles, quadrilaterals, circles) and 3D solids (cubes, cylinders, spheres, cones). Problems test area, perimeter, volume, surface area, angle relationships, and similarity/congruence rules. Mastering standard formulas and recognising shape properties quickly is key to solving these under exam conditions.",
+  "formulas": [
+    "Triangle — Area = (1/2) × base × height; Area (Heron's) = √[s(s-a)(s-b)(s-c)] where s = (a+b+c)/2",
+    "Triangle — Pythagoras: a² + b² = c² (right triangle, c = hypotenuse)",
+    "Equilateral Triangle — Area = (√3/4) × a²; Height = (√3/2) × a",
+    "Rectangle — Area = l × b; Perimeter = 2(l + b); Diagonal = √(l² + b²)",
+    "Square — Area = a²; Perimeter = 4a; Diagonal = a√2",
+    "Parallelogram — Area = base × height; Rhombus Area = (1/2) × d1 × d2",
+    "Trapezium — Area = (1/2) × (sum of parallel sides) × height",
+    "Circle — Area = πr²; Circumference = 2πr; Arc length = (θ/360) × 2πr; Sector area = (θ/360) × πr²",
+    "Cube — Volume = a³; Total Surface Area = 6a²; Diagonal = a√3",
+    "Cuboid — Volume = l × b × h; TSA = 2(lb + bh + lh); Diagonal = √(l² + b² + h²)",
+    "Cylinder — Volume = πr²h; Curved SA = 2πrh; Total SA = 2πr(r + h)",
+    "Cone — Volume = (1/3)πr²h; Slant height l = √(r² + h²); Curved SA = πrl; Total SA = πr(r + l)",
+    "Sphere — Volume = (4/3)πr³; Surface Area = 4πr²",
+    "Hemisphere — Volume = (2/3)πr³; Curved SA = 2πr²; Total SA = 3πr²"
+  ],
+  "shortcuts": [
+    "Pythagorean triplets to memorise: (3,4,5), (5,12,13), (7,24,25), (8,15,17), (9,40,41) and their multiples — spot them instantly in problems.",
+    "Diagonal of a square with side a = a√2 ≈ 1.414a; Diagonal of a cube with side a = a√3 ≈ 1.732a.",
+    "Area ratio of similar figures = (ratio of corresponding sides)²; Volume ratio = (ratio of sides)³.",
+    "Angle in a semicircle = 90°; Angles subtended by the same arc at the circumference are equal.",
+    "For a right triangle inscribed in a circle, the hypotenuse is always the diameter.",
+    "Rhombus shortcut: Area = (1/2) × d1 × d2 — diagonals bisect at right angles, so each triangle formed has legs d1/2 and d2/2.",
+    "Cone/Cylinder same base & height: Volume of cone = (1/3) × Volume of cylinder.",
+    "Sphere fits inside cylinder (r = r, h = 2r): Volume of sphere = (2/3) × Volume of cylinder.",
+    "When a largest circle is inscribed in a square of side a: radius = a/2; When a square is inscribed in a circle of radius r: side = r√2.",
+    "Sum of interior angles of an n-sided polygon = (n-2) × 180°; Each interior angle of a regular polygon = (n-2) × 180° / n."
+  ],
+  "examples": [
+    {
+      "question": "The perimeter of a right triangle is 60 cm and its hypotenuse is 25 cm. Find the area of the triangle.",
+      "steps": [
+        "Step 1: Let the two legs be a and b. Given: a + b + 25 = 60, so a + b = 35.",
+        "Step 2: By Pythagoras: a² + b² = 25² = 625.",
+        "Step 3: (a + b)² = a² + 2ab + b² → 35² = 625 + 2ab → 1225 = 625 + 2ab → 2ab = 600 → ab = 300.",
+        "Step 4: Area = (1/2) × a × b = (1/2) × 300 = 150 cm²."
+      ],
+      "answer": "150 cm²"
+    },
+    {
+      "question": "A cone and a cylinder have the same base radius of 7 cm and the same height of 12 cm. Find the ratio of their volumes.",
+      "steps": [
+        "Step 1: Volume of cone = (1/3)πr²h = (1/3) × π × 49 × 12 = 196π cm³.",
+        "Step 2: Volume of cylinder = πr²h = π × 49 × 12 = 588π cm³.",
+        "Step 3: Ratio = 196π : 588π = 196 : 588 = 1 : 3."
+      ],
+      "answer": "1 : 3"
+    },
+    {
+      "question": "The diagonal of a square is 12√2 cm. Find its area and perimeter.",
+      "steps": [
+        "Step 1: Diagonal of square = a√2, so a√2 = 12√2 → a = 12 cm.",
+        "Step 2: Area = a² = 12² = 144 cm².",
+        "Step 3: Perimeter = 4a = 4 × 12 = 48 cm."
+      ],
+      "answer": "Area = 144 cm², Perimeter = 48 cm"
+    },
+    {
+      "question": "A sphere of radius 6 cm is melted and recast into small spheres of radius 1 cm each. How many small spheres are formed?",
+      "steps": [
+        "Step 1: Volume of large sphere = (4/3)π × 6³ = (4/3)π × 216 = 288π cm³.",
+        "Step 2: Volume of each small sphere = (4/3)π × 1³ = (4/3)π cm³.",
+        "Step 3: Number of small spheres = 288π ÷ (4/3)π = 288 × (3/4) = 216."
+      ],
+      "answer": "216 small spheres"
+    },
+    {
+      "question": "Two similar triangles have areas 25 cm² and 100 cm². If a side of the smaller triangle is 6 cm, find the corresponding side of the larger triangle.",
+      "steps": [
+        "Step 1: Area ratio = 25 : 100 = 1 : 4.",
+        "Step 2: Side ratio = √(area ratio) = √(1/4) = 1/2.",
+        "Step 3: Corresponding side of larger triangle = 6 ÷ (1/2) = 12 cm."
+      ],
+      "answer": "12 cm"
+    }
+  ]
+},
+  {
+  "slug": "pipes-and-cisterns",
+  "name": "Pipes and Cisterns",
+  "category": "Arithmetic",
+  "explanation": "Pipes and Cisterns problems deal with the rate at which pipes fill or empty a tank. Each pipe's work is expressed as a fraction of the tank filled (or emptied) per unit time. Net work per unit time = sum of filling rates minus sum of emptying rates. Time to complete the job = 1 / (net rate).",
+  "formulas": [
+    "If a pipe fills a tank in A hours, its rate = 1/A per hour",
+    "If a pipe empties a tank in B hours, its rate = -1/B per hour (negative = outlet)",
+    "Combined time (two filling pipes A and B): T = AB / (A + B)",
+    "Combined time (filling pipe A, emptying pipe B): T = AB / (A - B), valid when A < B",
+    "Net rate (n filling pipes + m emptying pipes): R = Σ(1/Aᵢ) - Σ(1/Bⱼ); T = 1/R",
+    "Part filled in t hours by pipe with rate r: Part = r × t",
+    "If a pipe fills in A hours and a leak empties in L hours: T = AL / (L - A)"
+  ],
+  "shortcuts": [
+    "LCM shortcut: Assume tank capacity = LCM of all given times. Convert each pipe's time to units/hour, then add/subtract to get net units/hour. Time = LCM / net rate.",
+    "Two-pipe shortcut: If pipe X fills in A hrs and pipe Y fills in B hrs, together they take AB/(A+B) hrs — memorise this directly.",
+    "Fraction remaining: If a pipe has been open for t hours out of total time T, fraction filled = t/T.",
+    "Pipe opened late: If pipe A works alone for x hours and then B joins, set up: x/A + (T-x)/A + (T-x)/B = 1 and solve for T.",
+    "Leak detection: Pipe alone fills in A hrs; with leak it takes L hrs. Leak empties in AL/(L-A) hrs.",
+    "Alternate opening: Pipes A and B open alternately each for 1 hour. In 2 hours, work done = 1/A + 1/B. Find how many complete 2-hr cycles fit, then handle remainder."
+  ],
+  "examples": [
+    {
+      "question": "Pipe A fills a tank in 12 hours and Pipe B fills it in 18 hours. Both are opened together. In how many hours will the tank be full?",
+      "steps": [
+        "Step 1: Rate of A = 1/12 per hour; Rate of B = 1/18 per hour.",
+        "Step 2: Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 per hour.",
+        "Step 3: Time = 1 ÷ (5/36) = 36/5 = 7.2 hours."
+      ],
+      "answer": "7 hours 12 minutes (7.2 hours)"
+    },
+    {
+      "question": "A tank is filled by pipe A in 10 hours. A leak at the bottom empties the full tank in 15 hours. If the tank is half full when both start, how long to fill it completely?",
+      "steps": [
+        "Step 1: Filling rate = 1/10 per hour; Leak rate = 1/15 per hour.",
+        "Step 2: Net rate = 1/10 - 1/15 = 3/30 - 2/30 = 1/30 per hour.",
+        "Step 3: Only half the tank (1/2) needs to be filled.",
+        "Step 4: Time = (1/2) ÷ (1/30) = 15 hours."
+      ],
+      "answer": "15 hours"
+    },
+    {
+      "question": "Pipes A, B, and C can fill a tank in 6, 8, and 12 hours respectively. All three are opened at 8:00 AM. After 2 hours, C is closed. When will the tank be full?",
+      "steps": [
+        "Step 1: LCM(6, 8, 12) = 24 units (assume tank = 24 units).",
+        "Step 2: A fills 4 units/hr, B fills 3 units/hr, C fills 2 units/hr.",
+        "Step 3: In the first 2 hours (all open): work = (4+3+2)×2 = 9×2 = 18 units.",
+        "Step 4: Remaining = 24 - 18 = 6 units. Now only A and B work at 4+3 = 7 units/hr.",
+        "Step 5: Time for remaining = 6/7 hours ≈ 51.4 minutes.",
+        "Step 6: Total time = 2 + 6/7 = 20/7 ≈ 2 hrs 51 min. Tank full at ≈ 10:51 AM."
+      ],
+      "answer": "20/7 hours after 8:00 AM ≈ 10:51 AM"
+    },
+    {
+      "question": "Pipes A and B are opened alternately, each for one hour at a time starting with A. A fills in 5 hours, B fills in 7 hours. How long to fill the tank?",
+      "steps": [
+        "Step 1: In every 2-hour cycle: work = 1/5 + 1/7 = 7/35 + 5/35 = 12/35.",
+        "Step 2: After 5 complete cycles (10 hours): work done = 5 × 12/35 = 60/35 = 12/7.",
+        "Step 3: Oops — 12/7 > 1, so tank fills before 10 hours. Try 2 cycles (4 hrs): 24/35.",
+        "Step 4: After 2 cycles (4 hrs): 24/35 filled. Remaining = 11/35.",
+        "Step 5: Hour 5 — A opens; A fills 1/5 = 7/35 per hour. After A's turn: 24/35 + 7/35 = 31/35.",
+        "Step 6: Remaining = 4/35. Now B opens; B fills 1/7 = 5/35 per hour. Time = (4/35)/(5/35) = 4/5 hr.",
+        "Step 7: Total = 4 + 1 + 4/5 = 5 + 4/5 = 5 hours 48 minutes."
+      ],
+      "answer": "5 hours 48 minutes"
+    }
+  ]
+},
+  {
+  "slug": "areas",
+  "name": "Areas",
+  "category": "Geometry",
+  "explanation": "Area is the measure of the space enclosed within a 2D shape. This topic is heavily tested in aptitude exams through direct formula application, shape combinations, and percentage change problems.",
+  "formulas": [
+    "Square: Area = side²,  Perimeter = 4 × side,  Diagonal = side × √2",
+    "Rectangle: Area = length × breadth,  Perimeter = 2(l + b),  Diagonal = √(l² + b²)",
+    "Triangle: Area = ½ × base × height",
+    "Triangle (Heron's): Area = √[s(s−a)(s−b)(s−c)],  where s = (a+b+c)/2",
+    "Equilateral Triangle: Area = (√3/4) × side²,  Height = (√3/2) × side",
+    "Circle: Area = πr²,  Circumference = 2πr",
+    "Semi-circle: Area = πr²/2,  Perimeter = πr + 2r",
+    "Parallelogram: Area = base × height  (also = ab × sinθ for sides a,b and included angle θ)",
+    "Rhombus: Area = ½ × d1 × d2  (d1, d2 = diagonals)",
+    "Trapezium: Area = ½ × (sum of parallel sides) × height",
+    "Sector of circle: Area = (θ/360) × πr²,  Arc length = (θ/360) × 2πr",
+    "Ring (Annulus): Area = π(R² − r²),  R = outer radius, r = inner radius"
+  ],
+  "shortcuts": [
+    "If side of square increases by x%, area increases by (2x + x²/100)% — same rule applies to circle radius",
+    "Diagonal of square = side × √2 ≈ side × 1.414; use this to quickly find area from diagonal: Area = diagonal²/2",
+    "For a right triangle with legs a and b: Area = ½ab. No need for Heron's formula",
+    "Area of equilateral triangle with side a: memorise (√3/4)a² ≈ 0.433a²",
+    "If length and breadth of rectangle are changed by x% and y%: net % change in area = x + y + xy/100",
+    "Largest circle inscribed in a square of side a: r = a/2 → Area = πa²/4",
+    "Largest square inscribed in a circle of radius r: side = r√2 → Area = 2r²",
+    "For rhombus, if diagonals are given: side = ½√(d1² + d2²) — useful when perimeter is asked"
+  ],
+  "examples": [
+    {
+      "question": "The length of a rectangle is increased by 20% and breadth is decreased by 10%. Find the net percentage change in area.",
+      "steps": [
+        "Step 1: Use the formula: net % change = x + y + xy/100, where x = +20, y = −10",
+        "Step 2: Net % change = 20 + (−10) + (20×−10)/100",
+        "Step 3: = 10 + (−200/100) = 10 − 2 = 8%"
+      ],
+      "answer": "Area increases by 8%"
+    },
+    {
+      "question": "Find the area of a triangle whose sides are 13 cm, 14 cm, and 15 cm.",
+      "steps": [
+        "Step 1: s = (13 + 14 + 15) / 2 = 42 / 2 = 21",
+        "Step 2: Area = √[s(s−a)(s−b)(s−c)] = √[21 × 8 × 7 × 6]",
+        "Step 3: = √[21 × 8 × 42] = √7056 = 84 cm²"
+      ],
+      "answer": "84 cm²"
+    },
+    {
+      "question": "A path 2 m wide is built around a rectangular garden of length 20 m and breadth 15 m (inside the path). Find the area of the path.",
+      "steps": [
+        "Step 1: Outer rectangle dimensions = (20 + 2×2) × (15 + 2×2) = 24 × 19",
+        "Step 2: Area of outer rectangle = 24 × 19 = 456 m²",
+        "Step 3: Area of inner rectangle = 20 × 15 = 300 m²",
+        "Step 4: Area of path = 456 − 300 = 156 m²"
+      ],
+      "answer": "156 m²"
+    },
+    {
+      "question": "The diagonals of a rhombus are 24 cm and 10 cm. Find its area and perimeter.",
+      "steps": [
+        "Step 1: Area = ½ × d1 × d2 = ½ × 24 × 10 = 120 cm²",
+        "Step 2: Side = ½ × √(d1² + d2²) = ½ × √(576 + 100) = ½ × √676 = ½ × 26 = 13 cm",
+        "Step 3: Perimeter = 4 × side = 4 × 13 = 52 cm"
+      ],
+      "answer": "Area = 120 cm², Perimeter = 52 cm"
+    },
+    {
+      "question": "A sector has radius 14 cm and central angle 90°. Find its area and arc length. (π = 22/7)",
+      "steps": [
+        "Step 1: Area = (θ/360) × πr² = (90/360) × (22/7) × 14²",
+        "Step 2: = ¼ × (22/7) × 196 = ¼ × 616 = 154 cm²",
+        "Step 3: Arc length = (θ/360) × 2πr = (90/360) × 2 × (22/7) × 14 = ¼ × 88 = 22 cm"
+      ],
+      "answer": "Area = 154 cm², Arc length = 22 cm"
+    }
+  ]
+},
+  {
+  "slug": "hcf-and-lcm",
+  "name": "HCF and LCM",
+  "category": "Arithmetic",
+  "explanation": "HCF (Highest Common Factor), also called GCD, is the largest number that divides two or more numbers exactly. LCM (Lowest Common Multiple) is the smallest number that is a multiple of two or more numbers. These concepts are widely tested in competitive and aptitude exams.",
+  "formulas": [
+    "HCF × LCM = Product of two numbers  →  HCF(a,b) × LCM(a,b) = a × b",
+    "LCM(a,b) = (a × b) / HCF(a,b)",
+    "HCF of fractions = HCF of numerators / LCM of denominators",
+    "LCM of fractions = LCM of numerators / HCF of denominators",
+    "For n numbers: LCM(a,b,c) = LCM(LCM(a,b), c)"
+  ],
+  "shortcuts": [
+    "If one number is a multiple of the other, HCF = smaller number and LCM = larger number. E.g. HCF(4,12)=4, LCM(4,12)=12",
+    "For co-prime numbers (HCF=1): LCM = product of the numbers. E.g. LCM(7,9) = 63",
+    "Euclidean Algorithm for HCF: HCF(a,b) = HCF(b, a mod b), repeat until remainder = 0",
+    "HCF always ≤ smaller number; LCM always ≥ larger number",
+    "If HCF and one number are given, the other number = (HCF × LCM) / known number"
+  ],
+  "examples": [
+    {
+      "question": "Find the HCF and LCM of 36 and 48.",
+      "steps": [
+        "Step 1: Prime factorisation → 36 = 2² × 3²,  48 = 2⁴ × 3",
+        "Step 2: HCF = product of lowest powers of common primes = 2² × 3 = 12",
+        "Step 3: LCM = product of highest powers of all primes = 2⁴ × 3² = 144",
+        "Step 4: Verify → HCF × LCM = 12 × 144 = 1728 = 36 × 48 ✓"
+      ],
+      "answer": "HCF = 12, LCM = 144"
+    },
+    {
+      "question": "The HCF of two numbers is 8 and their LCM is 96. If one number is 32, find the other.",
+      "steps": [
+        "Step 1: Use the formula → HCF × LCM = Product of two numbers",
+        "Step 2: 8 × 96 = 32 × other number",
+        "Step 3: Other number = 768 / 32 = 24"
+      ],
+      "answer": "The other number is 24"
+    },
+    {
+      "question": "Find the greatest number that divides 445, 572, and 699 leaving remainders 4, 3, and 2 respectively.",
+      "steps": [
+        "Step 1: Subtract each remainder → 445−4=441, 572−3=569, 699−2=697",
+        "Step 2: Find HCF(441, 569, 697) using Euclidean algorithm",
+        "Step 3: HCF(441, 569): 569 = 1×441 + 128; 441 = 3×128 + 57; 128 = 2×57 + 14; 57 = 4×14 + 1; HCF = 1... recalc: HCF(441,569)=7; HCF(7,697)=7",
+        "Step 4: Greatest such number = 7"
+      ],
+      "answer": "7"
+    },
+    {
+      "question": "Find the LCM of the fractions 2/3, 4/9, and 5/6.",
+      "steps": [
+        "Step 1: LCM of fractions = LCM of numerators / HCF of denominators",
+        "Step 2: LCM of numerators (2, 4, 5) = 20",
+        "Step 3: HCF of denominators (3, 9, 6) = 3",
+        "Step 4: LCM = 20 / 3"
+      ],
+      "answer": "20/3"
+    }
+  ]
+},
+  {
+  "slug": "discounts",
+  "name": "Discounts",
+  "category": "Arithmetic",
+  "explanation": "Discounts refer to a reduction applied to the Marked Price (MP) of an article. The price after discount is called the Selling Price (SP). Discounts are always calculated on the Marked Price, never on Cost Price. Understanding discounts is essential for solving problems on profit/loss, successive discounts, and equivalent single discounts in aptitude exams.",
+  "formulas": [
+    "Discount = Marked Price (MP) - Selling Price (SP)",
+    "Discount % = (Discount / MP) × 100",
+    "SP = MP × (1 - Discount% / 100)",
+    "MP = SP / (1 - Discount% / 100)",
+    "Successive Discounts (d1% and d2%): Equivalent Discount = d1 + d2 - (d1 × d2) / 100",
+    "If Cost Price and Profit% are known: SP = CP × (1 + Profit% / 100)",
+    "MP in terms of CP: MP = CP × (1 + Markup% / 100)"
+  ],
+  "shortcuts": [
+    "For two successive discounts d1% and d2%, equivalent single discount = d1 + d2 - (d1 × d2)/100. Example: 20% and 10% → 20 + 10 - 2 = 28%",
+    "SP = MP × (remaining factor). E.g., 25% discount → SP = MP × 0.75",
+    "If profit % and discount % are known: CP = SP / (1 + Profit%/100) = MP × (1 - d%/100) / (1 + P%/100)",
+    "Multiplying Factor (MF) method: chain discounts → multiply all (1 - d/100) factors. E.g., 10%, 20%, 5% → 0.9 × 0.8 × 0.95",
+    "To find MP when SP and discount% are given: MP = SP × 100 / (100 - Discount%)",
+    "Equal profit and loss % on SP leads to an overall loss: Loss% = (common%)² / 100"
+  ],
+  "examples": [
+    {
+      "question": "An article is marked at ₹800 and sold at a 15% discount. Find the Selling Price.",
+      "steps": [
+        "Step 1: Identify MP = ₹800, Discount% = 15%",
+        "Step 2: Discount = 15% of 800 = 0.15 × 800 = ₹120",
+        "Step 3: SP = MP - Discount = 800 - 120 = ₹680"
+      ],
+      "answer": "Selling Price = ₹680"
+    },
+    {
+      "question": "Two successive discounts of 20% and 10% are offered on an item marked at ₹1000. Find the final Selling Price.",
+      "steps": [
+        "Step 1: MP = ₹1000, d1 = 20%, d2 = 10%",
+        "Step 2: After first discount: SP1 = 1000 × 0.80 = ₹800",
+        "Step 3: After second discount: SP2 = 800 × 0.90 = ₹720",
+        "Step 4 (Shortcut): Equivalent discount = 20 + 10 - (20×10)/100 = 28%, SP = 1000 × 0.72 = ₹720"
+      ],
+      "answer": "Final Selling Price = ₹720"
+    },
+    {
+      "question": "A shopkeeper wants a 20% profit after giving a 10% discount. At what percentage above CP should he mark the article?",
+      "steps": [
+        "Step 1: Let CP = ₹100. Desired SP = CP × 1.20 = ₹120",
+        "Step 2: SP = MP × (1 - 10/100) = MP × 0.90",
+        "Step 3: MP = SP / 0.90 = 120 / 0.90 = ₹133.33",
+        "Step 4: Markup% = (MP - CP) / CP × 100 = (133.33 - 100) / 100 × 100 = 33.33%"
+      ],
+      "answer": "The article should be marked 33.33% above the Cost Price"
+    }
+  ]
+},
+  {
+  "slug": "mixture-and-alligation",
+  "name": "Mixture and Alligation",
+  "category": "Arithmetic",
+  "explanation": "Mixture and Alligation is an important topic in arithmetic that deals with combining two or more substances having different values such as price, quantity, or concentration to form a new mixture. In mixture problems, we focus on understanding how different components like milk and water or items with different costs are blended together and how this affects the final result, such as the overall concentration or average value. Alligation is a shortcut method used within mixture problems to quickly find the ratio in which two ingredients should be mixed to obtain a desired mean value. It works on the simple idea of comparing the differences between the higher value, the lower value, and the mean value, and using these differences to determine the required ratio. This concept is widely used in solving problems related to cost price, percentages, and concentrations, making calculations faster and easier compared to traditional methods.",
+  "formulas": [
+    "Alligation Rule: Ratio = (Higher − Mean) : (Mean − Lower)",
+    "Quantity of ingredient A: Q_A = (Total × R_A) / (R_A + R_B)",
+    "Mean value of mixture: Mean = (C1×Q1 + C2×Q2) / (Q1 + Q2)",
+    "Concentration after mixing: C_mix = (C1×V1 + C2×V2) / (V1 + V2)",
+    "Three-ingredient mean: Mean = (C1Q1 + C2Q2 + C3Q3) / (Q1 + Q2 + Q3)",
+    "Repeated replacement (pure remaining): Pure = n × ((n − x) / n)^k",
+    "Fraction remaining after k replacements: Fraction = ((n − x) / n)^k",
+    "Dilution (adding solvent only): C_final = C_initial × (V_pure / V_total)",
+    "Removal without replacement: Pure_left = Initial − (x / n) × Initial",
+    "Part from ratio: Part = (Ratio_part / Sum_of_ratio) × Total",
+    "Total from one known part: Total = Known_quantity × (Sum_of_ratio / Known_ratio)",
+    "Percentage of component: % = (Component_qty / Total_qty) × 100",
+    "Cost price of mixture: CP_mix = (CP1×Q1 + CP2×Q2) / (Q1 + Q2)",
+    "Profit on mixture: Profit% = ((SP − CP_mix) / CP_mix) × 100",
+    "Dishonest gain via water: Gain% = (Water / Pure_milk) × 100",
+    "SP for target profit: SP = CP_mix × (1 + Profit% / 100)"
+  ],
+  "shortcuts": [
+    "Alligation Cross Method: Write Higher top-left, Lower top-right, Mean in the centre. Subtract diagonally — (Higher − Mean) gives the proportion of cheaper/weaker ingredient, (Mean − Lower) gives the proportion of costlier/stronger ingredient.",
+    "Repeated Dilution Shortcut: Use n × ((n−x)/n)^k directly — no need to compute step-by-step iterations.",
+    "Three-ingredient Alligation: Pair each extreme with the middle ingredient separately, then combine the two resulting ratios.",
+    "Profit/Cost Alligation: Treat cost prices or profit percentages as Higher, Lower, and Mean — same formula applies.",
+    "Part-to-Whole Conversion: Divide each ratio share by the sum of ratio parts, then multiply by the total quantity.",
+    "Percentage ↔ Ratio: Convert percentages to a ratio by removing the % sign and simplifying (e.g., 25% : 75% = 1 : 3)."
+  ],
+  "examples": [
+    {
+      "question": "In what ratio must rice at ₹12/kg be mixed with rice at ₹20/kg to get a mixture worth ₹15/kg?",
+      "steps": [
+        "Step 1: Lower = ₹12, Higher = ₹20, Mean = ₹15",
+        "Step 2: Higher − Mean = 20 − 15 = 5 (proportion of cheaper rice)",
+        "Step 3: Mean − Lower = 15 − 12 = 3 (proportion of costlier rice)"
+      ],
+      "answer": "Ratio = 5 : 3 (cheaper : costlier)"
+    },
+    {
+      "question": "A 60-litre vessel has milk and water in ratio 5:1. How much water must be added to make the ratio 5:3?",
+      "steps": [
+        "Step 1: Milk = (5/6) × 60 = 50 L; Water = 10 L",
+        "Step 2: Required water = (3/5) × 50 = 30 L",
+        "Step 3: Extra water = 30 − 10 = 20 L"
+      ],
+      "answer": "Add 20 litres of water"
+    },
+    {
+      "question": "A 64-litre cask of wine has 8 litres removed and replaced with water, repeated 3 times. Find the wine remaining.",
+      "steps": [
+        "Step 1: Use formula Pure = n × ((n − x) / n)^k = 64 × (56/64)³",
+        "Step 2: (0.875)³ ≈ 0.6699",
+        "Step 3: Wine = 64 × 0.6699 ≈ 42.9 L"
+      ],
+      "answer": "≈ 42.9 litres of wine remain"
+    },
+    {
+      "question": "In what ratio should a 40% acid solution be mixed with a 10% solution to get a 25% solution?",
+      "steps": [
+        "Step 1: Higher = 40%, Lower = 10%, Mean = 25%",
+        "Step 2: Higher − Mean = 15 (proportion of weaker solution)",
+        "Step 3: Mean − Lower = 15 (proportion of stronger solution)"
+      ],
+      "answer": "Ratio = 1 : 1"
+    }
+  ]
+}
+]
