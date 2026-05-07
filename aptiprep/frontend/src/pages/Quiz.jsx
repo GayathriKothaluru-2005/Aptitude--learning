@@ -225,14 +225,13 @@ function TimerBar({ timeLeft, totalTime, qIndex, total }) {
     </div>
   );
 }
-
-// ── Question Card (Submit + Previous, no mid-quiz feedback) ───────────────────
+// eslint-disable-next-line no-unused-vars
 function QuestionCard({ q, index, total, onSubmit, onPrev, savedAnswer, canGoBack }) {
   const opts = ["A","B","C","D"];
   // local selection — only committed on Submit
   const [selected, setSelected] = useState(savedAnswer || null);
 
-  // sync when navigating back to a previously answered question
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     setSelected(savedAnswer || null);
   }, [index, savedAnswer]);

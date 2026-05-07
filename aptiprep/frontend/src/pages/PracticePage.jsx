@@ -226,7 +226,7 @@ export default function PracticePage() {
   const [answeredMap, setAnsweredMap] = useState({});
   const [finished,    setFinished]    = useState(false);
 
-  // Load questions on mount and when slug changes
+// eslint-disable-next-line react-hooks/exhaustive-deps
   const loadQuestions = useCallback(async () => {
     if (!topicName) return;
     setQuestions([]);
