@@ -1,4 +1,3 @@
-
 {
   "name": "aptiprep-frontend",
   "version": "1.0.0",
@@ -7,7 +6,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
@@ -16,15 +16,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node node_modules/react-scripts/bin/react-scripts.js build"
-},
-  "proxy": "http://localhost:5000",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
     "development": ["last 1 chrome version"]
   },
   "eslintConfig": {
-    "extends": ["react-app"],
-    "plugins": []
+    "extends": ["react-app"]
   }
 }
